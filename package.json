@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vitest",
     "build": "rm -rf ./dist && tsc",
-    "prepublishOnly": "build"
+    "prepublishOnly": "pnpm build"
   },
   "keywords": [],
   "author": "Michael Katz",
