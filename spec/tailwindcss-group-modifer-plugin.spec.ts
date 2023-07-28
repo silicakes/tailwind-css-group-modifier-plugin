@@ -11,6 +11,8 @@ import {
   multipleGroupClassesOutput,
   customPrefixCSS,
   customPrefixCSSOutput,
+  multipleModifierCSSOutput,
+  multipleModifierCSS,
 } from "./fixtures";
 
 const generateCSS = (rawCSS: string, options?: PluginOptions) =>
@@ -28,13 +30,13 @@ const generateCSS = (rawCSS: string, options?: PluginOptions) =>
 
 test("Should generate a unique class for the style", () => {
   generateCSS(groupedCSSSingleClass).then((css) =>
-    expect(css).toEqual(groupedCssSingleClassOutput)
+    expect(css).toEqual(groupedCssSingleClassOutput),
   );
 });
 
 test("Should include additional utility classes if present", () => {
   generateCSS(groupedCSSMultipleClasses).then((css) =>
-    expect(css).toEqual(groupedCSSMultipleClassesOutput)
+    expect(css).toEqual(groupedCSSMultipleClassesOutput),
   );
 });
 
@@ -44,6 +46,12 @@ test("Should support multiple grouped classes", () => {
 
 test("Should support custom Prefix", () => {
   generateCSS(customPrefixCSS, { prefix: "customPrefix" }).then((css) =>
-    expect(css).toEqual(customPrefixCSSOutput)
+    expect(css).toEqual(customPrefixCSSOutput),
+  );
+});
+
+test("Should support multiple modifiers", () => {
+  generateCSS(multipleModifierCSS, { prefix: "customPrefix" }).then((css) =>
+    expect(css).toEqual(multipleModifierCSSOutput),
   );
 });

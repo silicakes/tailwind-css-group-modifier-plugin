@@ -28,26 +28,17 @@ rounded-md text-sm shadow-sm placeholder-slate-400
 
 <details>
   <summary>NPM</summary>
-
-    ```sh
     $ npm i tailwind-css-group-modifier-plugin
-    ```
 </details>
 
 <details>
   <summary>Yarn</summary>
-
-    ```sh
     $ yarn add tailwind-css-group-modifier-plugin
-    ```
 </details>
 
 <details>
   <summary>PNPM</summary>
-
-    ```sh
     $ pnpm i tailwind-css-group-modifier-plugin
-    ```
 </details>
 
 ## Usage
@@ -60,8 +51,9 @@ export default {
 };
 ```
 
-### Options
-*prefix* <string> default: x
+## Options
+### prefix 
+type: string default: x
 Allows changing the prefix from `x` to anything else.
 
 default syntax:
@@ -120,9 +112,11 @@ The plugin converts the grouped syntax into a single class containing the groupe
 
 ## Credits
 
-A big thanks goes to @wongjn for suggesting a solution for this problem here: https://github.com/tailwindlabs/tailwindcss/discussions/11701#discussioncomment-6569866
+A big thanks goes to [@wongjn](https://github.com/wongjn) for suggesting a solution for this problem here: https://github.com/tailwindlabs/tailwindcss/discussions/11701#discussioncomment-6569866
 
 *Prior art can be found here*
 [My original issue for this thing](https://github.com/tailwindlabs/tailwindcss/discussions/11701#discussioncomment-6569866)
+
 [A Twitter thread the creator of Tailwind, Adam Wathan](https://twitter.com/adamwathan/status/1461519820411789314)
+
 [A discussion around natively supporting it](https://github.com/tailwindlabs/tailwindcss/discussions/8337#discussioncomment-4032611)

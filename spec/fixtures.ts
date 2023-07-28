@@ -74,6 +74,18 @@ const customPrefixCSSOutput = String.raw`.invalid\:customPrefix-\[bg-blue-500\2c
     outline-style: solid
 }`;
 
+const multipleModifierCSS = `invalid:disabled:customPrefix-[bg-blue-500,outline,shadow-md,shadow-red-500]`;
+const multipleModifierCSSOutput = String.raw`.invalid\:disabled\:customPrefix-\[bg-blue-500\2c outline\2c shadow-md\2c shadow-red-500\]:disabled:invalid {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-color: #ef4444;
+    --tw-shadow: var(--tw-shadow-colored);
+    outline-style: solid
+}`;
+
 export {
   groupedCSSSingleClass,
   groupedCssSingleClassOutput,
@@ -83,4 +95,6 @@ export {
   multipleGroupClassesOutput,
   customPrefixCSS,
   customPrefixCSSOutput,
+  multipleModifierCSS,
+  multipleModifierCSSOutput,
 };
