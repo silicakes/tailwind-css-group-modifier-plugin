@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+		"lib": ["es2021"],
+		"outDir": "./dist",
+    "target": "es2021",
+    "module": "es6",
+    "skipLibCheck": true,
+		"moduleResolution": "nodenext",
+		"allowSyntheticDefaultImports": true,
+		"declaration": true
+  },
+	"exclude": ["./spec/**/*.ts", "./vitest.config.ts"]
+}
