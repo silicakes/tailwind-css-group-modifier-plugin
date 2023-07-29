@@ -24,13 +24,14 @@ rounded-md text-sm shadow-sm placeholder-slate-400
     "/>
 ```
 
--   [Installation](#installation){#toc-installation}
--   [Usage](#usage){#toc-usage}
--   [Options](#options){#toc-options}
-    -   [prefix](#prefix){#toc-prefix}
--   [How does it work?](#how-does-it-work){#toc-how-does-it-work}
--   [Constraints](#constraints){#toc-constraints}
--   [Credits](#credits){#toc-credits}
+### Table of contents
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Options](#options)
+    -   [prefix](#prefix)
+-   [How does it work?](#how-does-it-work)
+-   [Constraints](#constraints)
+-   [Credits](#credits)
 
 ## Installation
 
