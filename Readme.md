@@ -17,7 +17,7 @@ rounded-md text-sm shadow-sm placeholder-slate-400
 ```css
 <input type="text" value="tbone" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 
 rounded-md text-sm shadow-sm placeholder-slate-400
-      focus:x-[outline-none,border-sky-500,ring-1 ring-sky-500]
+      focus:x-[outline-none,border-sky-500,ring-1,ring-sky-500]
       disabled:x-[bg-slate-50,text-slate-500,border-slate-200,shadow-none]
       invalid:x-[border-pink-500,text-pink-600]
       focus:invalid:-x[border-pink-500,ring-pink-500]
