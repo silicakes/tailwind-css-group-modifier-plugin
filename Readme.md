@@ -38,19 +38,19 @@ rounded-md text-sm shadow-sm placeholder-slate-400
 <details>
   <summary>NPM</summary>
 
-    $ npm i tailwind-css-group-modifier-plugin
+    $ npm i tailwindcss-group-modifier-plugin
 </details>
 
 <details>
   <summary>Yarn</summary>
 
-    $ yarn add tailwind-css-group-modifier-plugin
+    $ yarn add tailwindcss-group-modifier-plugin
 </details>
 
 <details>
   <summary>PNPM</summary>
 
-    $ pnpm i tailwind-css-group-modifier-plugin
+    $ pnpm i tailwindcss-group-modifier-plugin
 </details>
 
 ## Usage
