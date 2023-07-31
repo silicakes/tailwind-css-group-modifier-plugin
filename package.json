@@ -10,6 +10,14 @@
   },
   "keywords": [],
   "author": "Michael Katz",
+  "homepage": "https://github.com/silicakes/tailwind-css-group-modifier-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/silicakes/tailwind-css-group-modifier-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silicakes/tailwind-css-group-modifier-plugin.git"
+  },
   "license": "MIT",
   "prettier": {
     "printWidth": 100,
